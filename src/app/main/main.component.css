@@ -1,0 +1,198 @@
+.serviceContent {
+    margin: 20px;
+}
+
+.title-icon {
+    font-size: 3rem;
+    color: #e70e56;
+}
+
+.title-text {
+    padding-left: 5px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #e70e56;
+}
+
+.pText {
+    text-align: justify;
+}
+
+.featureImg1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 43.75rem;
+    background-image: url("/assets/images/loan4.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featureImg2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 43.75rem;
+    background-image: url("/assets/images/service.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finance {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    background-image: url("/assets/images/profile.PNG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100vw 43.75rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.financeTitle {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.featureContent {
+    margin: 85px;
+}
+
+.h1 {
+    color: white;
+    /* padding-top: 80px; */
+}
+
+.h4 {
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: justify;
+    color: white;
+}
+
+.shade {
+    width: 100%;
+    height: 43.75rem;
+    background: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+}
+
+.row {
+    margin: 0;
+}
+
+.experience {
+    padding: 4rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.split {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.expContent {
+    padding: 4rem;
+    text-align: justify;
+    color: darkslategray;
+}
+
+.pStyle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.fa-user-shield,
+.fa-hand-holding-dollar,
+.col-1>.fa-user {
+    font-size: 3rem;
+    color: #e70e56;
+}
+
+.gradient-text {
+    background-color: #e70e56;
+    background-image: linear-gradient(45deg,
+            #e70e56 16.666%,
+            #E16541 16.666%,
+            #E16541 33.333%,
+            #F18F43 33.333%,
+            #F18F43 50%,
+            #8B9862 50%,
+            #8B9862 66.666%,
+            #476098 66.666%,
+            #476098 83.333%,
+            #A7489B 83.333%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.sp {
+    color: dimgray;
+    text-align: justify;
+}
+
+.gradient-text:hover {
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+
+    40% {
+        background-size: 650%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+
+    80% {
+        background-size: 650%;
+    }
+
+    100% {
+        background-size: 650%;
+    }
+}
+
+.service {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+header,
+.row {
+    padding-right: 0;
+    padding-left: 0;
+}

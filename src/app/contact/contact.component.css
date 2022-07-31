@@ -1,0 +1,51 @@
+.fa-pen-to-square,
+.fa-envelope,
+.fa-pencil,
+.input-group-text>.fa-user {
+    font-size: 2rem;
+    color: #e70e56;
+}
+
+.form-control {
+    border-left: none;
+    border-radius: 0;
+}
+
+.input-group-text {
+    background-color: white;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    border-left: none;
+    box-shadow: none;
+}
+
+textarea {
+    min-height: 125px;
+}
+
+.btn-primary {
+    background-color: #e70e56;
+    border-color: #e70e56;
+}
+
+.row {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.service {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.expContent {
+    padding: 4rem;
+    text-align: justify;
+    color: darkslategray;
+}
